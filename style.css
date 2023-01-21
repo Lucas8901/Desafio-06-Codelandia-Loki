@@ -125,14 +125,18 @@ body{
   border: 1px solid #0072D2;
 }
 
+
+
 @media(max-width:1000px){
   .container{
-    flex-wrap: wrap;
+    flex-direction: column;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 6rem;
     height: 100%;
+    padding-top: 6rem;
+   
   }
 
   .descricao .titulo .image {
@@ -156,7 +160,6 @@ body{
   }
   .btn .btn1, 
   .btn .btn2{
-  
     padding: 0.4rem 0.6rem;
   
   }
